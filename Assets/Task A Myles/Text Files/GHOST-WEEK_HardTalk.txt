@@ -1,0 +1,9 @@
+[01]NARRATOR: “Tension rings palpable in the air. You know you should comfort Izzy, but you’re afraid you don’t know how.”
+[01]ANNE: "I’m sorry.”
+[01]ANNE: “I wanted to help our family when I left. I wish I got that chance.”
+[01]IZZY: “Heh- You didn’t want anything to do with us. That’s why you weren’t here in the first place, that’s why you left, that’s why you--”
+[01]IZZY: "..." 
+[01]ANNE: "..."
+[01]IZZY: “You know what? I’m going to go to bed, I think. I think I’ll talk to you in the morning. I made your bed for you.”
+[01]NARRATOR: “Once more, you’re alone.”
+[01]...
