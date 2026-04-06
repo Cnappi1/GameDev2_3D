@@ -1994,6 +1994,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1221451404}
     m_Modifications:
+    - target: {fileID: 3796777322665066066, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796777322665066066, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796777322665066066, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1456236989}
+    - target: {fileID: 3796777322665066066, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796777322665066066, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChoseOption
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796777322665066066, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PopulateDialogBox, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796777322665066066, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796777322665066066, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4779340035716400675, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
       propertyPath: m_Name
       value: Button 1
@@ -2077,6 +2109,10 @@ PrefabInstance:
     - target: {fileID: 6301768987763881038, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6580944136901123711, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_text
+      value: Choice 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5077,7 +5113,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1221451404
 Transform:
   m_ObjectHideFlags: 0
@@ -5086,15 +5122,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1221451403}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -931.0065, y: -541.8088, z: 7.49359}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.04003937, y: 0.000000059604638, z: -0.0000000074505797, w: 0.9991981}
+  m_LocalPosition: {x: -4, y: -0, z: -926}
+  m_LocalScale: {x: 0.01891749, y: 0.01891749, z: 0.01891749}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 599078130}
   - {fileID: 2085865189}
   m_Father: {fileID: 2105141547}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -4.589, y: 0, z: 0}
 --- !u!43 &1223056850
 Mesh:
   m_ObjectHideFlags: 0
@@ -7475,7 +7511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3692542107777538456, guid: 2ed4de60d8246d640a53a675a87fc387, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -904.4
+      value: -897.6
       objectReference: {fileID: 0}
     - target: {fileID: 3692542107777538456, guid: 2ed4de60d8246d640a53a675a87fc387, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7499,7 +7535,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3692542107777538456, guid: 2ed4de60d8246d640a53a675a87fc387, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -23.3
+      value: -23.2
       objectReference: {fileID: 0}
     - target: {fileID: 3692542107777538456, guid: 2ed4de60d8246d640a53a675a87fc387, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7571,11 +7607,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6446823675727669526, guid: 2ed4de60d8246d640a53a675a87fc387, type: 3}
       propertyPath: m_margin.w
-      value: 26.26304
+      value: 16.154661
       objectReference: {fileID: 0}
     - target: {fileID: 6446823675727669526, guid: 2ed4de60d8246d640a53a675a87fc387, type: 3}
       propertyPath: m_margin.z
-      value: -984.8363
+      value: -654.0969
       objectReference: {fileID: 0}
     - target: {fileID: 8344665220142482188, guid: 2ed4de60d8246d640a53a675a87fc387, type: 3}
       propertyPath: output
@@ -7597,6 +7633,10 @@ PrefabInstance:
       propertyPath: choiceButton2
       value: 
       objectReference: {fileID: 2085865190}
+    - target: {fileID: 8344665220142482188, guid: 2ed4de60d8246d640a53a675a87fc387, type: 3}
+      propertyPath: continueDialog
+      value: 
+      objectReference: {fileID: -4797033115861056508, guid: 339c9f9bb2fe0a2419ceaf3f4bd9f11e, type: 3}
     - target: {fileID: 8344665220142482188, guid: 2ed4de60d8246d640a53a675a87fc387, type: 3}
       propertyPath: inputActions.m_SingletonActionBindings.Array.size
       value: 1
@@ -11161,6 +11201,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1221451404}
     m_Modifications:
+    - target: {fileID: 3796777322665066066, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796777322665066066, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796777322665066066, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1456236989}
+    - target: {fileID: 3796777322665066066, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796777322665066066, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChoseOption
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796777322665066066, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PopulateDialogBox, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796777322665066066, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796777322665066066, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4779340035716400675, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
       propertyPath: m_Name
       value: Button 2
@@ -11227,11 +11299,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6301768987763881038, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -14.057469
+      value: 339
       objectReference: {fileID: 0}
     - target: {fileID: 6301768987763881038, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.8088601
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6301768987763881038, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11244,6 +11316,12 @@ PrefabInstance:
     - target: {fileID: 6301768987763881038, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6580944136901123711, guid: 6c3cb4440cb190245b1df66c66261d3c, type: 3}
+      propertyPath: m_text
+      value: 'Choice 2
+
+'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

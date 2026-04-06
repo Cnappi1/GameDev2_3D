@@ -10,7 +10,7 @@ public class PopulateDialogBox : MonoBehaviour
 {
     public TextAsset textFile;
     public GameObject player;
-    public InputAction inputActions;
+    public InputActionReference continueDialog;
     public Button choiceButton1;
     public Button choiceButton2;
     [SerializeField] private TextMeshProUGUI output;
@@ -34,8 +34,24 @@ public class PopulateDialogBox : MonoBehaviour
     void Update()
     {
         playerMovement.enabled = !this.isActiveDialog();
+    }
 
-        if (this.continueDialogKeyPressed() && !this.isChoiceDialog())
+    private void OnEnable()
+    {
+        continueDialog.action.performed += OnContinueDialog;
+        continueDialog.action.Enable();
+    }
+
+    private void OnDisable()
+    {
+        continueDialog.action.performed -= OnContinueDialog;
+        continueDialog.action.Disable();
+    }
+
+
+    void OnContinueDialog(InputAction.CallbackContext context)
+    {
+        if (!this.isChoiceDialog())
         {
             if (dialogIndex >= sceneText.Count - 1)
             {
@@ -62,7 +78,7 @@ public class PopulateDialogBox : MonoBehaviour
 
     private bool continueDialogKeyPressed()
     {
-        return Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.KeypadEnter);
+        return false;
     }
 
     void StartDialogue()

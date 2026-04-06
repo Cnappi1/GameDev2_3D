@@ -4391,6 +4391,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4900000, guid: 5f948fab7ad8cb54295077758e14ac4a, type: 3}
     - target: {fileID: 8344665220142482188, guid: 2ed4de60d8246d640a53a675a87fc387, type: 3}
+      propertyPath: inputActions
+      value: 
+      objectReference: {fileID: -944628639613478452, guid: 339c9f9bb2fe0a2419ceaf3f4bd9f11e, type: 3}
+    - target: {fileID: 8344665220142482188, guid: 2ed4de60d8246d640a53a675a87fc387, type: 3}
       propertyPath: choiceButton1
       value: 
       objectReference: {fileID: 1000993309}
@@ -4398,6 +4402,10 @@ PrefabInstance:
       propertyPath: choiceButton2
       value: 
       objectReference: {fileID: 1949815381}
+    - target: {fileID: 8344665220142482188, guid: 2ed4de60d8246d640a53a675a87fc387, type: 3}
+      propertyPath: continueDialog
+      value: 
+      objectReference: {fileID: -4797033115861056508, guid: 339c9f9bb2fe0a2419ceaf3f4bd9f11e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
