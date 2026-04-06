@@ -1,4 +1,5 @@
 {
+    "version": 1,
     "name": "PlayerInputActions",
     "maps": [
         {
@@ -27,18 +28,18 @@
                     "name": "Fire",
                     "type": "Button",
                     "id": "5beb1ccb-ab55-44fc-bc47-0f9b18e56ecd",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Use",
+                    "name": "ContinueDialog",
                     "type": "Button",
                     "id": "990a5792-1866-4e9d-89f0-75661f976b22",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Press",
                     "initialStateCheck": false
                 }
             ],
@@ -270,7 +271,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Use",
+                    "action": "ContinueDialog",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e3a08700-e7bb-4ab1-9bac-978ae4cd74a4",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ContinueDialog",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

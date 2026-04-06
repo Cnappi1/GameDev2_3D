@@ -1,3 +1,4 @@
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class LoadSceneOnTrigger : MonoBehaviour
@@ -12,5 +13,13 @@ public class LoadSceneOnTrigger : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.tag == "Player")
+        {
+            SceneManager.LoadScene("Starter Scene");
+        }
     }
 }
