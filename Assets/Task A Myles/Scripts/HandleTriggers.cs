@@ -18,10 +18,13 @@ public class HandleTriggers : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    void OnTriggerEnter(Collider col)
     {
-        dialogBoxText.SetTextFile(textFile);
-        hasBeenTriggered = true;
+        if (col.tag == "Player" && !hasBeenTriggered) 
+        {
+            dialogBoxText.SetTextFile(textFile);
+            hasBeenTriggered = true;
+        }
     }
 
     public bool HasBeenTriggered()
