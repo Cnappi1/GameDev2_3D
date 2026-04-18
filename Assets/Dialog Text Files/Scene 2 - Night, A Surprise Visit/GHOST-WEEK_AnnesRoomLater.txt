@@ -1,0 +1,25 @@
+[01]NARRATOR: You sit on the bed.
+[01]ANNE: You son of a gun.  You’re scaring me off that easy!
+[01]NARRATOR: The room suddenly turns freezing cold.
+[01]*bang* *bang*
+[01]NARRATOR: It's Izzy. You promptly open the door.
+[01]IZZY: “Anne, what the hell is going on!
+[01]NARRATOR: You check the thermostat in your room. 
+[01]NARRATOR: The dial keeps spinning by itself, clicking back to 56° no matter what you set it to.
+[03] Option 1: YANK OUT BATTERIES | Option 2: USE A LETTER OPENER | Option 3: IGNORE IT
+[01]Yank Batteries (SAFE)
+[01]NARRATOR: The screen dies. A faint hiss echoes through the vents, then silence.
+[01]ANNE: “Ha. Beat by double-A’s.”
+[01]IZZY: "Nice."
+[01]Adjusts with letter opener (FUNNY):
+[01]ANNE: “Look, 72° is comfortable. 56° is just rude.”
+[01]IZZY: “You're telling me.
+[01]Ignore (FAIL)
+[01]NARRATOR: Frost forms along the vents, chilling the whole room. The screen flickers blue.
+[01]IZZY: "O.K. What’s going on?"
+[01]ANNE: "I don’t know, Izzy. Maybe the house is as freaked out about losing Peter as we are."
+[01]IZZY: "Right. I’m going to bed."
+[01]NARRATOR: Izzy leaves and you decide to write in your journal.
+[01]NARRATOR: Writing in your diary always helps.
+[01]Anne writes: Great. My brother’s dead. A ghost named Creon is trying to fry my butt. And I just lied to my baby sister. I don’t know what’s going, but I swear I’m going to get to the bottom of it.
+[01]NARRATOR: You close your journal and head to bed. 

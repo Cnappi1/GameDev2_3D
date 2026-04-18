@@ -1,0 +1,25 @@
+[Your phone buzzes on your nightstand]
+NARRATOR: You sit up groggily, reaching for the phone.
+"You are in danger."
+ANNE: “Who the hell is this!”
+ANNE: ...
+ANNE: (whispering) “I’ll never forget the way Gertie’s body shimmered as if the stars themselves pulled them upward..”
+[There's scratching at the door]
+[03]Option 1: OPEN THE DOOR | Option 2: BARRICADE IT
+[01]CREON: “You ask too many questions.”
+[01]ANNE: "Who are you!"
+[01]CREON: “You should go to bed; you’re having a bad dream.”
+[01]ANNE: “No… I know what I see”
+[01]CREON: “Stay away from the graveyard.”
+[01]ANNE: “Wait. Why?”
+[01]CREON: “You dare to defy me!"
+[01]NARRATOR: You stumble back into a chair.
+[01]CREON: “Good girl.”
+[01]CREON: “Stay away from the graves, Anne. Or you’ll end up buried with them.”
+[01]NARRATOR: You freeze and then...he's gone.
+[01] *knock* *knock*
+[03]Option 1: ANSWER IT | Option 2: IGNORE IT
+[01]IZZY: “Anne… who were you talking to?"
+[01]ANNE: No one.  I had a bad dream.  Go back to bed, Izzy.
+[01]ANNE: “…Maybe I made the wrong choice.”
+[01]NARRATOR: Izzy leaves.
