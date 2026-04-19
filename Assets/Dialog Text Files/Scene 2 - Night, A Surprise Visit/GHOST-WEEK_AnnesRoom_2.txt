@@ -1,0 +1,13 @@
+[03]Option 1: OPEN THE DOOR | Option 2: BARRICADE IT
+[04]CREON: “You ask too many questions.”
+[04]ANNE: "Who are you!"
+[04]CREON: “You should go to bed; you’re having a bad dream.”
+[04]ANNE: “No… I know what I see”
+[04]CREON: “Stay away from the graveyard.”
+[04]ANNE: “Wait. Why?”
+[04]CREON: “You dare to defy me!"
+[04]NARRATOR: You stumble back into a chair.
+[04]CREON: “Good girl.”
+[04]CREON: “Stay away from the graves, Anne. Or you’ll end up buried with them.”
+[04]NARRATOR: You freeze and then...he's gone.
+[04] *knock* *knock*

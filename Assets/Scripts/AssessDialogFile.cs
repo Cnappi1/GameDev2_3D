@@ -32,7 +32,7 @@ public class AssessDialogFile
 
             if (this.getCurrentToken() != this.getToken(this.currDialogIndex - 1))
             {
-                while (this.getCurrentToken() != "[01]" || this.getCurrentToken() != "[02]" || this.getCurrentToken() != "[03]")
+                while (this.getCurrentToken() != "[01]" && this.getCurrentToken() != "[02]" && this.getCurrentToken() != "[03]")
                 {
                     this.currDialogIndex++;
 

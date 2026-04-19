@@ -116,6 +116,9 @@ public class PopulateDialogBox : MonoBehaviour
     {
         this.textAssessor.continueToOptionDialog(value);
         this.activateButtons(false);
+        StopAllCoroutines();   
+        output.text = string.Empty;
+        StartCoroutine(TypeLine());
     }
 
     public bool SetTextFile(TextAsset textAsset)

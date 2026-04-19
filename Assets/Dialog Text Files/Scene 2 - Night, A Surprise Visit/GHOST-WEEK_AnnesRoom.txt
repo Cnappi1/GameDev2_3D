@@ -1,25 +1,27 @@
-[Your phone buzzes on your nightstand]
-NARRATOR: You sit up groggily, reaching for the phone.
-"You are in danger."
-ANNE: “Who the hell is this!”
-ANNE: ...
-ANNE: (whispering) “I’ll never forget the way Gertie’s body shimmered as if the stars themselves pulled them upward..”
-[There's scratching at the door]
+[01][Your phone buzzes on your nightstand]
+[01]NARRATOR: You sit up groggily, reaching for the phone.
+[01]"You are in danger."
+[01]ANNE: “Who the hell is this!”
+[01]ANNE: ...
+[01]ANNE: (whispering) “I’ll never forget the way Gertie’s body shimmered as if the stars themselves pulled them upward..”
+[01][There's scratching at the door]
 [03]Option 1: OPEN THE DOOR | Option 2: BARRICADE IT
 [04]CREON: “You ask too many questions.”
 [04]ANNE: "Who are you!"
-[01]CREON: “You should go to bed; you’re having a bad dream.”
-[01]ANNE: “No… I know what I see”
-[01]CREON: “Stay away from the graveyard.”
-[01]ANNE: “Wait. Why?”
-[01]CREON: “You dare to defy me!"
-[01]NARRATOR: You stumble back into a chair.
-[01]CREON: “Good girl.”
-[01]CREON: “Stay away from the graves, Anne. Or you’ll end up buried with them.”
-[01]NARRATOR: You freeze and then...he's gone.
-[01] *knock* *knock*
+[04]CREON: “You should go to bed; you’re having a bad dream.”
+[04]ANNE: “No… I know what I see”
+[04]CREON: “Stay away from the graveyard.”
+[04]ANNE: “Wait. Why?”
+[04]CREON: “You dare to defy me!"
+[04]NARRATOR: You stumble back into a chair.
+[04]CREON: “Good girl.”
+[04]CREON: “Stay away from the graves, Anne. Or you’ll end up buried with them.”
+[04]NARRATOR: You freeze and then...he's gone.
+[04]*knock* *knock*
+[05]*knock* *knock*
 [03]Option 1: ANSWER IT | Option 2: IGNORE IT
 [04]IZZY: “Anne… who were you talking to?"
 [04]ANNE: No one.  I had a bad dream.  Go back to bed, Izzy.
 [05]ANNE: “…Maybe I made the wrong choice.”
-[01]NARRATOR: Izzy leaves.
+[05]NARRATOR: Izzy leaves.
+[01]...

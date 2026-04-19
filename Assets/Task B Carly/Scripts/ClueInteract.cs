@@ -27,7 +27,7 @@ public class ClueInteract : MonoBehaviour
         if (player == null) return;
 
         float distance = Vector3.Distance(transform.position, player.transform.position);
-        playerInRange = distance < 5f;
+        playerInRange = distance < 10f;
 
         if (!playerInRange)
         {

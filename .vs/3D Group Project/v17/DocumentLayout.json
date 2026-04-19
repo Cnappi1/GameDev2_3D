@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\jeffr\\OneDrive\\Desktop\\Unity Projects\\3D Group Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jeffr\\OneDrive\\Desktop\\Unity Projects\\3D Group Project\\Assets\\Dialog Text Files\\Scene 2 - Night, A Surprise Visit\\GHOST-WEEK_AnnesRoom.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Dialog Text Files\\Scene 2 - Night, A Surprise Visit\\GHOST-WEEK_AnnesRoom.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jeffr\\OneDrive\\Desktop\\Unity Projects\\3D Group Project\\Assets\\Scripts\\PopulateDialogBox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PopulateDialogBox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jeffr\\OneDrive\\Desktop\\Unity Projects\\3D Group Project\\Assets\\Task B Carly\\Scripts\\ClueInteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Task B Carly\\Scripts\\ClueInteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,19 +31,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GHOST-WEEK_AnnesRoom.txt",
+              "DocumentMoniker": "C:\\Users\\jeffr\\OneDrive\\Desktop\\Unity Projects\\3D Group Project\\Assets\\Dialog Text Files\\Scene 2 - Night, A Surprise Visit\\GHOST-WEEK_AnnesRoom.txt",
+              "RelativeDocumentMoniker": "Assets\\Dialog Text Files\\Scene 2 - Night, A Surprise Visit\\GHOST-WEEK_AnnesRoom.txt",
+              "ToolTip": "C:\\Users\\jeffr\\OneDrive\\Desktop\\Unity Projects\\3D Group Project\\Assets\\Dialog Text Files\\Scene 2 - Night, A Surprise Visit\\GHOST-WEEK_AnnesRoom.txt",
+              "RelativeToolTip": "Assets\\Dialog Text Files\\Scene 2 - Night, A Surprise Visit\\GHOST-WEEK_AnnesRoom.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-19T19:14:01.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PopulateDialogBox.cs",
+              "DocumentMoniker": "C:\\Users\\jeffr\\OneDrive\\Desktop\\Unity Projects\\3D Group Project\\Assets\\Scripts\\PopulateDialogBox.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PopulateDialogBox.cs",
+              "ToolTip": "C:\\Users\\jeffr\\OneDrive\\Desktop\\Unity Projects\\3D Group Project\\Assets\\Scripts\\PopulateDialogBox.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PopulateDialogBox.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAADwv7YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T18:15:32.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ClueInteract.cs",
               "DocumentMoniker": "C:\\Users\\jeffr\\OneDrive\\Desktop\\Unity Projects\\3D Group Project\\Assets\\Task B Carly\\Scripts\\ClueInteract.cs",
               "RelativeDocumentMoniker": "Assets\\Task B Carly\\Scripts\\ClueInteract.cs",
               "ToolTip": "C:\\Users\\jeffr\\OneDrive\\Desktop\\Unity Projects\\3D Group Project\\Assets\\Task B Carly\\Scripts\\ClueInteract.cs",
               "RelativeToolTip": "Assets\\Task B Carly\\Scripts\\ClueInteract.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-05T17:31:30.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UniversalRenderPipelineAsset.cs",
               "DocumentMoniker": "C:\\Users\\jeffr\\OneDrive\\Desktop\\Unity Projects\\3D Group Project\\Library\\PackageCache\\com.unity.render-pipelines.universal@bc6f352be672\\Runtime\\Data\\UniversalRenderPipelineAsset.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@bc6f352be672\\Runtime\\Data\\UniversalRenderPipelineAsset.cs",
@@ -43,8 +77,7 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@bc6f352be672\\Runtime\\Data\\UniversalRenderPipelineAsset.cs",
               "ViewState": "AgIAAKMBAAAAAAAAAAAQwK8BAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T20:28:23.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T20:28:23.501Z"
             }
           ]
         }
