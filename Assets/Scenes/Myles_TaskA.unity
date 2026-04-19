@@ -4974,7 +4974,7 @@ PrefabInstance:
     - target: {fileID: 8344665220142482188, guid: 2ed4de60d8246d640a53a675a87fc387, type: 3}
       propertyPath: textFile
       value: 
-      objectReference: {fileID: 4900000, guid: f31d8fb13fba873499d5cd6b4340900b, type: 3}
+      objectReference: {fileID: 4900000, guid: 5f948fab7ad8cb54295077758e14ac4a, type: 3}
     - target: {fileID: 8344665220142482188, guid: 2ed4de60d8246d640a53a675a87fc387, type: 3}
       propertyPath: inputActions
       value: 
