@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "DialogControls",
+    "maps": [
+        {
+            "name": "Dialog",
+            "id": "23e3ef40-2a40-4f6b-a390-86dc5243fc96",
+            "actions": [
+                {
+                    "name": "Continue",
+                    "type": "Button",
+                    "id": "5e9354ba-6272-4eb9-99e7-b7dd94b41bd7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6d914778-dd64-4b2a-8825-1f18b1973538",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Continue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
