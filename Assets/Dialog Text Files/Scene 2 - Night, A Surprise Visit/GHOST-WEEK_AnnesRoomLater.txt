@@ -7,15 +7,15 @@
 [01]NARRATOR: You check the thermostat in your room. 
 [01]NARRATOR: The dial keeps spinning by itself, clicking back to 56° no matter what you set it to.
 [03] Option 1: YANK OUT BATTERIES | Option 2: USE A LETTER OPENER | Option 3: IGNORE IT
-[01]Yank Batteries (SAFE)
-[01]NARRATOR: The screen dies. A faint hiss echoes through the vents, then silence.
-[01]ANNE: “Ha. Beat by double-A’s.”
-[01]IZZY: "Nice."
-[01]Adjusts with letter opener (FUNNY):
-[01]ANNE: “Look, 72° is comfortable. 56° is just rude.”
-[01]IZZY: “You're telling me.
-[01]Ignore (FAIL)
-[01]NARRATOR: Frost forms along the vents, chilling the whole room. The screen flickers blue.
+[04]Yank Batteries (SAFE)
+[04]NARRATOR: The screen dies. A faint hiss echoes through the vents, then silence.
+[04]ANNE: “Ha. Beat by double-A’s.”
+[04]IZZY: "Nice."
+[05]Adjusts with letter opener (FUNNY):
+[05]ANNE: “Look, 72° is comfortable. 56° is just rude.”
+[05]IZZY: “You're telling me.
+[06]Ignore (FAIL)
+[06]NARRATOR: Frost forms along the vents, chilling the whole room. The screen flickers blue.
 [01]IZZY: "O.K. What’s going on?"
 [01]ANNE: "I don’t know, Izzy. Maybe the house is as freaked out about losing Peter as we are."
 [01]IZZY: "Right. I’m going to bed."
