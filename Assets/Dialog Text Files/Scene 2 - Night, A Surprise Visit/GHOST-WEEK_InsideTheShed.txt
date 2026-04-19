@@ -3,11 +3,11 @@
 [01]ANNE: “Cool. Talking mirror. Because that’s not horrifying at all.”
 [01]NARRATOR: The mirror shakes violently. What will you do?
 [03]Option 1: SMASH MIRROR | Option 2: SPEAK TO MIRROR | Option 3: COVER IT AGAIN
-[01]NARRATOR: The shards scatter across the shed, each one showing Creon’s eye glaring.
-[01]MIRROR-CREON: “Now I see you everywhere.”
-[01]ANNE: “If you want to talk, stop hiding behind glass like a cheap horror movie prop!”
-[01]NARRATOR: The mirror snarls, then cracks slightly. A faint voice echoes through: 
-[01]NARRATOR: “He wears faces. Don’t trust them.”
-[01]NARRATOR: You throw the cloth back on the mirror.
-[01]ANNE: “Problem solved. I just invented ghost interior design. Good job, Scooby-Doo. That’ll hold him forever.”
+[04]NARRATOR: The shards scatter across the shed, each one showing Creon’s eye glaring.
+[04]MIRROR-CREON: “Now I see you everywhere.”
+[05]ANNE: “If you want to talk, stop hiding behind glass like a cheap horror movie prop!”
+[05]NARRATOR: The mirror snarls, then cracks slightly. A faint voice echoes through: 
+[05]NARRATOR: “He wears faces. Don’t trust them.”
+[06]NARRATOR: You throw the cloth back on the mirror.
+[06]ANNE: “Problem solved. I just invented ghost interior design. Good job, Scooby-Doo. That’ll hold him forever.”
 [01]NARRATOR: You leave the shed and bolt the door.

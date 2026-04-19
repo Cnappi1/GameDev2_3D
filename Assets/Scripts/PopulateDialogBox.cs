@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using UnityEngine;
+using static AssessDialogFile;
 
 public class PopulateDialogBox : MonoBehaviour
 {
@@ -13,27 +14,42 @@ public class PopulateDialogBox : MonoBehaviour
     public InputActionReference continueDialog;
     public Button choiceButton1;
     public Button choiceButton2;
+    public Button choiceButton3;
     [SerializeField] private TextMeshProUGUI output;
-
-    private IList sceneText;
-    private int dialogIndex = 0;
     private CharacterMovement playerMovement;
-    private const int TEXT_CODE_LENGTH = 4;
+    private AssessDialogFile textAssessor;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        this.textAssessor = new AssessDialogFile();
         this.playerMovement = player.gameObject.GetComponent<CharacterMovement>();
         this.choiceButton1.gameObject.SetActive(false);
         this.choiceButton2.gameObject.SetActive(false);
-        this.sceneText = TextAssetToList(textFile);
+        this.choiceButton3.gameObject.SetActive(false);
+        this.textAssessor.SetSceneText(this.TextAssetToList(this.textFile));
         StartDialogue();
     }
 
     // Update is called once per frame
     void Update()
     {
-        playerMovement.enabled = !this.isActiveDialog();
+        playerMovement.enabled = !this.textAssessor.isActiveDialog();
+    }
+
+    void StartDialogue()
+    {
+        output.text = string.Empty;
+        StartCoroutine(TypeLine());
+    }
+
+    IEnumerator TypeLine()
+    {
+        foreach (char c in this.textAssessor.GetCurrLine().Substring(this.textAssessor.TextCodeLength()))
+        {
+            output.text += c;
+            yield return new WaitForSeconds(0.01f);
+        }
     }
 
     private void OnEnable()
@@ -48,31 +64,30 @@ public class PopulateDialogBox : MonoBehaviour
         continueDialog.action.Disable();
     }
 
-
     void OnContinueDialog(InputAction.CallbackContext context)
     {
-        if (!this.isChoiceDialog())
+        if (!this.textAssessor.isChoiceDialog())
         {
-            if (dialogIndex >= sceneText.Count - 1)
+            if (this.textAssessor.GetCurrDialogIndex() >= this.textAssessor.GetSceneText().Count - 1)
             {
                 output.text = string.Empty;
                 gameObject.SetActive(false);
                 playerMovement.enabled = true;
             }
-            else if (output.text == sceneText[dialogIndex].ToString().Substring(TEXT_CODE_LENGTH))
+            else if (output.text == this.textAssessor.GetCurrLine().ToString().Substring(this.textAssessor.TextCodeLength()))
             {
                 NextLine();
             }
             else
             {
                 StopAllCoroutines();
-                output.text = sceneText[dialogIndex].ToString().Substring(TEXT_CODE_LENGTH);
+                output.text = this.textAssessor.GetCurrLine().ToString().Substring(this.textAssessor.TextCodeLength());
             }
         }
 
-        if (isChoiceDialog())
+        if (this.textAssessor.isChoiceDialog())
         {
-            this.setUpButtons();
+            this.activateButtons(true);
         }
     }
 
@@ -81,26 +96,11 @@ public class PopulateDialogBox : MonoBehaviour
         return false;
     }
 
-    void StartDialogue()
-    {
-        output.text = string.Empty;
-        StartCoroutine(TypeLine());
-    }
-
-    IEnumerator TypeLine()
-    {
-        foreach (char c in sceneText[dialogIndex].ToString().Substring(TEXT_CODE_LENGTH))
-        {
-            output.text += c;
-            yield return new WaitForSeconds(0.01f);
-        }
-    }
-
     void NextLine()
     {
-        if (dialogIndex < sceneText.Count - 1)
+        if (this.textAssessor.GetCurrDialogIndex() <= this.textAssessor.GetSceneText().Count - 1)
         {
-            dialogIndex++;
+            this.textAssessor.ContinueToNextLine();
             output.text = string.Empty;
             StartCoroutine(TypeLine());
         }
@@ -114,20 +114,8 @@ public class PopulateDialogBox : MonoBehaviour
 
     public void ChoseOption(int value)
     {
-        if (value <= 1)
-        {
-            NextLine();
-            dialogIndex++;
-            dialogIndex++;
-        }
-        else
-        {
-            dialogIndex++;
-            NextLine();
-        }
-
-        this.choiceButton1.gameObject.SetActive(false);
-        this.choiceButton2.gameObject.SetActive(false);
+        this.textAssessor.continueToOptionDialog(value);
+        this.activateButtons(false);
     }
 
     public bool SetTextFile(TextAsset textAsset)
@@ -136,37 +124,10 @@ public class PopulateDialogBox : MonoBehaviour
         {
             gameObject.SetActive(true);
             this.textFile = textAsset;
-            this.sceneText = TextAssetToList(textFile);
-            this.dialogIndex = 0;
+            this.textAssessor.SetSceneText(this.TextAssetToList(textAsset));
             return true;
         }
         return false;
-    }
-
-    private void displayDialog(string text)
-    {
-        this.output.text = text.Substring(4);
-        this.dialogIndex++;
-    }
-
-    private bool isChoiceDialog()
-    {
-        if (dialogIndex >= sceneText.Count - 1)
-        {
-            return false;
-        }
-        string token = sceneText[dialogIndex].ToString().Substring(0, TEXT_CODE_LENGTH);
-        return token == "[03]";
-    }
-
-    private bool isActiveDialog()
-    {
-        if (dialogIndex >= sceneText.Count - 1)
-        {
-            return false;
-        }
-        string token = sceneText[this.dialogIndex].ToString().Substring(0, TEXT_CODE_LENGTH);
-        return token == "[01]" || token == "[03]";
     }
 
     private List<string> TextAssetToList(TextAsset ta)
@@ -174,9 +135,10 @@ public class PopulateDialogBox : MonoBehaviour
         return new List<string>(ta.text.Split('\n'));
     }
 
-    private void setUpButtons()
+    private void activateButtons(bool value) 
     {
-        this.choiceButton1.gameObject.SetActive(true);
-        this.choiceButton2.gameObject.SetActive(true);
+        this.choiceButton1.gameObject.SetActive(value);
+        this.choiceButton2.gameObject.SetActive(value);
+        this.choiceButton3.gameObject.SetActive(value);
     }
 }
