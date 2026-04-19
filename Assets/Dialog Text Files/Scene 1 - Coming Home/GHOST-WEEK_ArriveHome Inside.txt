@@ -2,8 +2,8 @@
 [01]IZZY: “Do you want something to eat? To drink?”
 [01]NARRATOR: “You realize you haven’t had a chance to eat or drink since you boarded your plane... And that was seven hours ago. Your throat is dry and your stomach gurgles.”
 [03]Option 1: CUP OF TEA | Option 2: WHATEVER SHE HAS IN THE FRIDGE TO EAT.
-[01]ANNE: “Tea? With some honey. Thanks.”
-[01]ANNE: “I’ll take whatever you’ve got. I’m starved.”
+[04]ANNE: “Tea? With some honey. Thanks.”
+[05]ANNE: “I’ll take whatever you’ve got. I’m starved.”
 [01]IZZY: “Coming right up.”
 [01]NARRATOR: “While Izzy is gone, it might be a good idea to look around.”
 [01]*Click on objects to inspect them*
