@@ -1,0 +1,9 @@
+How To Play:
+Start By Opening ArriveHome_Outside Scene and Pressing Play
+Anne is polite. She will not move while certain dialog and conversations are on the screen.
+Be sure to press the E key to continue through dialog.
+Anne moves using WASD Controls.
+She also interacts with certain items in and outside the house by pressing the E key. 
+Walking away from these items should get any pops up that display to go away.
+Also, sometimes certain items will trigger dialog and internal thoughts for Anne. Remember to proceed through these using the E button.
+Have fun and make sure to choose your path wisely...
