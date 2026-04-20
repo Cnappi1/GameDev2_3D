@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class LoadSceneOnTrigger : MonoBehaviour
 {
+    public string sceneName;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,7 +21,7 @@ public class LoadSceneOnTrigger : MonoBehaviour
     {
         if (col.tag == "Player")
         {
-            SceneManager.LoadScene("Starter Scene");
+            SceneManager.LoadScene(this.sceneName);
         }
     }
 }

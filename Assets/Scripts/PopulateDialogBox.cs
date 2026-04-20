@@ -98,7 +98,7 @@ public class PopulateDialogBox : MonoBehaviour
 
     void NextLine()
     {
-        if (this.textAssessor.GetCurrDialogIndex() <= this.textAssessor.GetSceneText().Count - 1)
+        if (this.textAssessor.GetCurrDialogIndex() < this.textAssessor.GetSceneText().Count - 1)
         {
             this.textAssessor.ContinueToNextLine();
             output.text = string.Empty;
