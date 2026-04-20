@@ -1,6 +1,0 @@
-[03]Option 1: ANSWER IT | Option 2: IGNORE IT
-[04]IZZY: “Anne… who were you talking to?"
-[04]ANNE: No one.  I had a bad dream.  Go back to bed, Izzy.
-[04]NARRATOR: Izzy leaves.
-[05]ANNE: “…Maybe I made the wrong choice.”
-[05]NARRATOR: Izzy leaves.

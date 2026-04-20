@@ -25,3 +25,4 @@
 [05]ANNE: “…Maybe I made the wrong choice.”
 [05]NARRATOR: Izzy leaves.
 [01]...
+[01]NARRATOR: You know deep in your heart the only way to solve a problem is to confront it. 

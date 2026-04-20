@@ -3005,7 +3005,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -500}
+  m_AnchoredPosition: {x: 75, y: -81}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &627143428
@@ -3051,7 +3051,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 627143429}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1494145507}
+        m_TargetAssemblyTypeName: PopulateDialogBox, Assembly-CSharp
+        m_MethodName: ChoseOption
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &627143429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4161,8 +4173,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1116656429}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.68513364, z: 0, w: -0.72841746}
-  m_LocalPosition: {x: 0.6899996, y: 7.5299997, z: 17.469997}
+  m_LocalRotation: {x: 0, y: -0.9758962, z: 0, w: -0.21823564}
+  m_LocalPosition: {x: 1.5211201, y: 7.5299997, z: 0.0496006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5441,7 +5453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f66a1768707895e49be9cf1307594f34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PopulateDialogBox
-  textFile: {fileID: 4900000, guid: 02c46e479ce0d0140876747d2a2d9d7b, type: 3}
+  textFile: {fileID: 4900000, guid: a1978be11eb58e440b4bf6e1838d760e, type: 3}
   player: {fileID: 557597372}
   continueDialog: {fileID: -5383332482118602119, guid: a5334b2b6ca0a4249a352e24d36a81dd, type: 3}
   choiceButton1: {fileID: 2022307469}
@@ -6898,8 +6910,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042016921}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.68513364, z: -0, w: -0.72841746}
-  m_LocalPosition: {x: 0.6899996, y: 7.5299997, z: 17.469997}
+  m_LocalRotation: {x: -0, y: -0.9758962, z: -0, w: -0.21823564}
+  m_LocalPosition: {x: 1.5211201, y: 7.5299997, z: 0.0496006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7082,6 +7094,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 517455992}
+    - target: {fileID: 3983235316356252802, guid: 7c3bdaeab67586e4899a5155ca1e28ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4096583437933400077, guid: 7c3bdaeab67586e4899a5155ca1e28ce, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -7202,6 +7218,26 @@ PrefabInstance:
       propertyPath: dialogBoxText
       value: 
       objectReference: {fileID: 1494145507}
+    - target: {fileID: 6213572404476529521, guid: 7c3bdaeab67586e4899a5155ca1e28ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213572404476529521, guid: 7c3bdaeab67586e4899a5155ca1e28ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213572404476529521, guid: 7c3bdaeab67586e4899a5155ca1e28ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.21823564
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213572404476529521, guid: 7c3bdaeab67586e4899a5155ca1e28ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9758962
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213572404476529521, guid: 7c3bdaeab67586e4899a5155ca1e28ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 514.789
+      objectReference: {fileID: 0}
     - target: {fileID: 6292825445544200481, guid: 7c3bdaeab67586e4899a5155ca1e28ce, type: 3}
       propertyPath: m_Mesh
       value: 
