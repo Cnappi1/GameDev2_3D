@@ -68,13 +68,13 @@ public class PopulateDialogBox : MonoBehaviour
     {
         if (!this.textAssessor.isChoiceDialog())
         {
-            if (this.textAssessor.GetCurrDialogIndex() >= this.textAssessor.GetSceneText().Count - 1)
+            if (this.textAssessor.GetCurrDialogIndex() > this.textAssessor.GetSceneText().Count)
             {
                 output.text = string.Empty;
                 gameObject.SetActive(false);
                 playerMovement.enabled = true;
             }
-            else if (output.text == this.textAssessor.GetCurrLine().ToString().Substring(this.textAssessor.TextCodeLength()))
+            else if (this.textAssessor.GetCurrDialogIndex() < this.textAssessor.GetSceneText().Count && output.text == this.textAssessor.GetCurrLine().ToString().Substring(this.textAssessor.TextCodeLength()))
             {
                 NextLine();
             }
@@ -98,9 +98,10 @@ public class PopulateDialogBox : MonoBehaviour
 
     void NextLine()
     {
-        if (this.textAssessor.GetCurrDialogIndex() < this.textAssessor.GetSceneText().Count - 1)
+        this.textAssessor.ContinueToNextLine();
+
+        if (this.textAssessor.GetCurrDialogIndex() < this.textAssessor.GetSceneText().Count)
         {
-            this.textAssessor.ContinueToNextLine();
             output.text = string.Empty;
             StartCoroutine(TypeLine());
         }

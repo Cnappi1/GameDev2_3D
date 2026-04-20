@@ -7,7 +7,6 @@ public class AssessDialogFile
 {
     private List<string> sceneText;
     private int currDialogIndex;
-    private int endOfCurrOptionDialog;
     private string currOptionToken;
     private const int TEXT_CODE_LENGTH = 4;
 
@@ -15,7 +14,6 @@ public class AssessDialogFile
     {
         this.sceneText = new List<string>();
         this.currDialogIndex = 0;
-        this.endOfCurrOptionDialog = 0;
         this.currOptionToken = "";
     }
 
@@ -30,17 +28,9 @@ public class AssessDialogFile
         {
             this.currDialogIndex++;
 
-            if (this.getCurrentToken() != this.getToken(this.currDialogIndex - 1))
+            if (this.optionDialogComplete())
             {
-                while (this.getCurrentToken() != "[01]" && this.getCurrentToken() != "[02]" && this.getCurrentToken() != "[03]")
-                {
-                    this.currDialogIndex++;
-
-                    if (this.currDialogIndex > this.sceneText.Count) 
-                    {
-                        return;
-                    }
-                }
+                this.getOutOfOptionDialog();
             }
         }
         
@@ -49,6 +39,25 @@ public class AssessDialogFile
             this.currDialogIndex++;
         }
         
+    }
+
+    private void getOutOfOptionDialog() 
+    {
+        while (this.isInOptionDialog())
+        {
+            this.currDialogIndex++;
+
+            if (this.currDialogIndex > this.sceneText.Count)
+            {
+                this.currDialogIndex = this.sceneText.Count - 1;
+                return;
+            }
+        }
+    }
+
+    private bool optionDialogComplete()
+    {
+        return this.getCurrentToken() != this.currOptionToken;
     }
 
     private bool isInOptionDialog() 
@@ -70,6 +79,7 @@ public class AssessDialogFile
     {
         this.sceneText = text;
         this.currDialogIndex = 0;
+        this.currOptionToken = "";
     }
 
     public int TextCodeLength() 
@@ -81,7 +91,7 @@ public class AssessDialogFile
     {
         int index = this.currDialogIndex;
         this.currOptionToken = "[" + 0 + "" + (3 + chosenOption) + "]";
-        while (this.getToken(index) != this.currOptionToken)
+        while (this.getToken(index) != this.currOptionToken && index < this.sceneText.Count + 1)
         {
             index++;
         }
@@ -105,7 +115,7 @@ public class AssessDialogFile
 
     private string getCurrentToken()
     {
-        if (this.sceneText[this.currDialogIndex].Length >= TEXT_CODE_LENGTH)
+        if (this.currDialogIndex < this.sceneText.Count && this.GetCurrLine().Length >= TEXT_CODE_LENGTH)
         {
             return this.sceneText[this.currDialogIndex].Substring(0, TEXT_CODE_LENGTH);
         }
