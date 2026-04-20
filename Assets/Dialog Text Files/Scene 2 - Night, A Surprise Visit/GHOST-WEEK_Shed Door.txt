@@ -1,0 +1,8 @@
+[03]Option 1: CUT THROUGH VINES | Option 2: TRY TO TALK TO VINES
+[04]NARRATOR: You find rusty shears and hack at the vines.
+[04]VINES: “Ow! Rude! We were just growing here!”
+[04]ANNE: “Yeah, well, grow somewhere else.”
+[05]ANNE: “Look, I water plants. I respect plants. Can we just… not?”
+[05]NARRATOR: The vines pause… then tighten, snapping at your feet.
+[05]ANNE: “Negotiations failed. Democracy has spoken.”
+[05]NARRATOR: You find rusty shears and hack at the vines.
